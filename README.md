@@ -1,2 +1,6 @@
-# learn-web
-Learning Web tech : Javascript, CSS, HTML, Related third party library
+# Get Start leanning web
+- npm run babel
+
+
+# Related Website
+- https://github.com/airbnb/javascript
