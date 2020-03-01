@@ -3,4 +3,5 @@
 
 
 # Related Website
-- https://github.com/airbnb/javascript
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+[JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)

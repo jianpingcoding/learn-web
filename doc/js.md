@@ -1,5 +1,5 @@
 # Javascript libary
-## babel
+## Babel
 - npm install --save-dev @babel/core @babel/cli @babel/preset-env
 - npm install --save @babel/polyfill
 - ./node_modules/.bin/babel js -o lib/compiled.js
