@@ -8,12 +8,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel": "./node_modules/.bin/babel js -o dist/compiled.js",
+    "babel": "./node_modules/.bin/babel js/tutorial/async -o dist/compiled.js",
     "watch-babel": "npx babel js --watch --out-file dist/compiled.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jianpingcoding/learn-web.git"
+    "url": "git+https://github.com/jianpingcoding/ui-web.git"
   },
   "keywords": [
     "web",
@@ -24,15 +24,16 @@
   "author": "ganjianping",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jianpingcoding/learn-web/issues"
+    "url": "https://github.com/jianpingcoding/ui-web/issues"
   },
-  "homepage": "https://github.com/jianpingcoding/learn-web#readme",
+  "homepage": "https://github.com/jianpingcoding/ui-web#readme",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.4"
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.6.4"
   }
 }
