@@ -15,7 +15,6 @@ s.has('three') //false
 // Delete an item from a Set by key
 s.delete('one');
 
-
 // Determine the number of items in a Set
 s.size;
 

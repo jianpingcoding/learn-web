@@ -32,7 +32,7 @@ const spin = ({ color = 'yellow' } = {}) => {
   console.log(color);
 }
 
-/* --------------- Generators --------------- */
+/* --------------- Generators (Start with JavaScript 1.7) --------------- */
 
 // A generator can contain many yield keywords, thus halting itself multiple times, 
 // and it's identified by the *function keyword

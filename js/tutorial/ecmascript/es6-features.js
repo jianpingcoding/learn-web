@@ -1,4 +1,4 @@
-/* --------------- let and const (Block Scoping) --------------- */
+/* --------------- let and const (Block Scoping) (Start with JavaScript 1.7) --------------- */
 
 // Using let: Modern JavaScript developers might choose to only use let
 //            and completely discard the use of var

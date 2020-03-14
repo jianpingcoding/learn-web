@@ -41,4 +41,8 @@ const iterator1 = array1.entries();
 console.log(iterator1.next().value); // Array [0, "a"]
 console.log(iterator1.next().value); // Array [1, "b"]
 
+// Array.prototype.slice(): returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included)
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+console.log(animals.slice(2));    // ['camel', 'duck', 'elephant']
+console.log(animals.slice(2, 4)); // ["camel", "duck"]
 
