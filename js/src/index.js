@@ -1,8 +1,10 @@
-import UIEvent from './module/UIEvent';
+// import "../../css/scss/styles.scss"; // for wepack and Parcel
+import _ from 'lodash';
 
-const uiEvent = new UIEvent();
-UIEvent.on('refresh', () => {
-  console.log('Trigger refresh');
-});
+function component() {
+  const element = document.createElement('div');
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  return element;
+}
 
-UIEvent.dispatch('refresh', 'Data');
+document.body.appendChild(component());

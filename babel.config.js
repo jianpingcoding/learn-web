@@ -17,6 +17,9 @@ module.exports = function (api) {
         targets: {
           chrome: '58',
           ie: '11',
+          edge: '17',
+          firefox: '60',
+          safari: '11.1',
         },
       }],
     ],

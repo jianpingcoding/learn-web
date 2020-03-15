@@ -32,6 +32,21 @@
 * Ignoring .babelrc.json: `npx babel --no-babelrc script.js --out-file script-compiled.js --presets=es2015,react`
 * Custom config path: `npx babel --config-file /path/to/my/babel.config.json --out-dir dist ./src`
 
+## ESLint & Prettier
+
+* Install Prettier: `npm install --save-dev prettier` 
+* Install Eslint: `npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier`
+
+## [Webpack](https://webpack.js.org/)
+
+* Install webpack: `npm install --save-dev webpack webpack-cli`
+* Create webpack.config.js in the root.
+* Add Babel: `npm install --save-dev babel-loader`
+* Add Sass styling: `npm install --save-dev css-loader style-loader sass-loader node-sass`
+* Add Image (SVG, PNG): `npm install --save-dev file-loader url-loader`
+* Add Utilities moment, lodash : `npm install moment lodash lodash-webpack-plugin`.
+* Add moment to plugins in webpack.config.js: `new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)`
+
 ## Test Framework
 
 ### [Mocha](https://mochajs.org/)
@@ -40,10 +55,17 @@
 * Support ES6: `npm install --save-dev @babel/register` and install env preset & polyfill.
 * Usage: `mocha --require @babel/register js/test/mocha/**`
 
+### [Chai](https://www.chaijs.com/)
+
+* Install Chai: `npm install chai`
+* Usage: `import { expect } from "chai";`
+
+
 ### [Jest](https://jestjs.io/)
 
 * Install jest : `npm install --save-dev jest`
 * Using Babel: `npm install --save-dev babel-jest @babel/core @babel/preset-env`
+
 
 
 ## [ESLint](https://eslint.org) 
@@ -65,6 +87,7 @@
 [Prettier](https://prettier.io/)
 
 [AMP](https://amp.dev)
+[Create App](https://createapp.dev)
 
 [Egg Head](https://egghead.io)
 [Free Code Camp](https://guide.freecodecamp.org)
