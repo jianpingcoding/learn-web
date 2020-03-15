@@ -32,7 +32,9 @@
 * Ignoring .babelrc.json: `npx babel --no-babelrc script.js --out-file script-compiled.js --presets=es2015,react`
 * Custom config path: `npx babel --config-file /path/to/my/babel.config.json --out-dir dist ./src`
 
-## ESLint & Prettier
+## Build systems
+
+### ESLint & Prettier
 
 * Install Prettier: `npm install --save-dev prettier` 
 * Install Eslint: `npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier`
@@ -46,6 +48,11 @@
 * Add Image (SVG, PNG): `npm install --save-dev file-loader url-loader`
 * Add Utilities moment, lodash : `npm install moment lodash lodash-webpack-plugin`.
 * Add moment to plugins in webpack.config.js: `new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)`
+
+## [Parcel](https://parceljs.org)
+
+* Install Parcel: `npm install --save-dev parcel-bundler`
+* Add Build command: `parcel html/src/index.html`
 
 ## Test Framework
 

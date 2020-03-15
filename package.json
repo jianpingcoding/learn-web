@@ -17,7 +17,9 @@
     "debug": "node --inspect-brk ./dist/index.js",
     "clean": "rm -rf dist",
     "webpack-dev": "webpack -d --mode development",
-    "webpack-prod": "webpack -p --mode production"
+    "webpack-prod": "webpack -p --mode production",
+    "parcel": "parcel html/src/index.html",
+    "parcel-build": "parcel build html/src/index.html"
   },
   "repository": {
     "type": "git",
