@@ -32,6 +32,12 @@
 * Ignoring .babelrc.json: `npx babel --no-babelrc script.js --out-file script-compiled.js --presets=es2015,react`
 * Custom config path: `npx babel --config-file /path/to/my/babel.config.json --out-dir dist ./src`
 
+## Main library
+
+### React
+* Install React: `npm install --save react react-dom`
+* Install ESlint & babel `npm install --save-dev @babel/preset-react eslint-plugin-react`
+
 ## Build systems
 
 ### ESLint & Prettier
@@ -39,7 +45,7 @@
 * Install Prettier: `npm install --save-dev prettier` 
 * Install Eslint: `npm install --save-dev eslint eslint-config-prettier eslint-plugin-prettier`
 
-## [Webpack](https://webpack.js.org/)
+### [Webpack](https://webpack.js.org/)
 
 * Install webpack: `npm install --save-dev webpack webpack-cli`
 * Create webpack.config.js in the root.
@@ -49,10 +55,11 @@
 * Add Utilities moment, lodash : `npm install moment lodash lodash-webpack-plugin`.
 * Add moment to plugins in webpack.config.js: `new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /en/)`
 
-## [Parcel](https://parceljs.org)
+### [Parcel](https://parceljs.org)
 
 * Install Parcel: `npm install --save-dev parcel-bundler`
 * Add Build command: `parcel html/src/index.html`
+
 
 ## Test Framework
 
