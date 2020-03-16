@@ -37,6 +37,14 @@
 ### React
 * Install React: `npm install --save react react-dom`
 * Install ESlint & babel `npm install --save-dev @babel/preset-react eslint-plugin-react`
+* Add @babel/preset-react in babel.config.js
+* Add jsx and react plugin in .eslintrc.yml
+* Run the command: `parcel react/src/index.html`
+
+### Vue
+* Install Vue: `npm install --save vue`
+* Add plugin:vue/essential extend and vue plugin in .eslintrc.yml
+* Run the command: `parcel vue/src/index.html`
 
 ## Build systems
 
