@@ -1,5 +1,5 @@
 <template>
-  <h1>
+  <h1 v-bind:title="currentDate">
     {{name}}
   </h1>
 </template>
@@ -11,6 +11,7 @@
     data: function() {
       return {
         name: 'Hello World!',
+        currentDate: new Date().toLocaleString()
       }
     },
   });

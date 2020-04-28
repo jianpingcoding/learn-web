@@ -86,9 +86,11 @@
     "core-js": "^3.6.4",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "regenerator-runtime": "^0.13.5",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
     "vue-hot-reload-api": "^2.3.4"
   }
